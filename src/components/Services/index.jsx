@@ -28,8 +28,9 @@ const Services = () => {
   useOnClickOutside(modal3Ref, () => handleOutsideClick(3))
 
   return (
-    <section className="services section" id="myprojects">
+    <section className="services section" id="services">
       <h1 className="section__title">My Projects</h1>
+      <span className="section__subtitle">Portfolio Applications</span>
 
       <div className="services__container container grid">
         <div className="services__content">
@@ -120,6 +121,15 @@ const Services = () => {
                   This app was made in react and I used a free Rest API just to show that I can work
                   with it as well. It has an option to search for a specific cocktail and view its
                   details.
+                  <br />
+                  <br />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://cocktail-recipe-app.netlify.app/"
+                  >
+                    Click here to open Cocktails App
+                  </a>
                 </p>
               </div>
             </div>
@@ -155,7 +165,6 @@ const Services = () => {
                     toggleTab(0)
                   }}
                 />
-
                 <h3 className="services__modal-title">Marlboro Quiz App</h3>
                 <p className="services__modal-description">
                   This app was made with react-native, it works on web, iOS and android platforms,
@@ -165,6 +174,12 @@ const Services = () => {
                   test. The order of questions and answers is randomised each time in order to make
                   it a bit more difficult. It does not use any sort of database so everything is
                   stored on the frontend.
+                  <br />
+                  <br />
+                  <a rel="noreferrer" target="_blank" href=" https://quiz-marlboro.netlify.app/">
+                    Click here to open Marlboro quiz
+                  </a>
+                  <br />
                 </p>
               </div>
             </div>
