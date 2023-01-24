@@ -28,7 +28,7 @@ const Services = () => {
   useOnClickOutside(modal3Ref, () => handleOutsideClick(3))
 
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="myprojects">
       <h1 className="section__title">My Projects</h1>
 
       <div className="services__container container grid">
