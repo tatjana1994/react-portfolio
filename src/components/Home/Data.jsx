@@ -55,9 +55,10 @@ const Data = () => {
           />
         </svg>
       </h1>
-      <h3 className="home__subtitle">Junior Frontend Developer</h3>
+      <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        {`I'm a junior frontend developer and I'm very passionate and dedicated to my work.`}
+        {`Frontend developer who loves her job and enjoys the creative process.
+I’m eager to learn, fully dedicate myself to every project, and keep improving through my work.`}
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

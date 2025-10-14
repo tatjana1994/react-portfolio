@@ -17,7 +17,7 @@
 }
 
 .qualification__button:hover {
-  color: var(--title-color-dark);
+  color: gray;
 }
 
 .qualification__icon {
@@ -52,12 +52,13 @@
 .qualification__title {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
 }
 
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-0-25);
   color: var(--text-color);
 }
 

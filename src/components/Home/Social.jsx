@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from "react"
 
 const Social = () => {
@@ -12,13 +13,8 @@ const Social = () => {
         <i className="bx bxl-linkedin-square" />
       </a>
 
-      <a
-        href="https://github.com/tatjana1994"
-        className="home__social-icon"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="bx bxl-github" />
+      <a href="mailto:devrnjat94@gmail.com" className="home__social-icon">
+        <i className="bx bx-envelope" />
       </a>
     </div>
   )

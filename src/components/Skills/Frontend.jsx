@@ -35,6 +35,13 @@ const Frontend = () => {
               <h3 className="skills__name">Typescript</h3>
             </div>
           </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
+              <h3 className="skills__name">Wordpress</h3>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
@@ -50,7 +57,15 @@ const Frontend = () => {
             <i className="bx bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">React Native</h3>
+              <h3 className="skills__name">NextJs</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
+              <h3 className="skills__name">Gatsby</h3>
             </div>
           </div>
 
@@ -66,6 +81,13 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">REST API</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
+              <h3 className="skills__name">Graphql</h3>
             </div>
           </div>
         </div>

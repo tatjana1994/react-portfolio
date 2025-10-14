@@ -25,6 +25,14 @@ const Backend = () => {
             <i className="bx bx-badge-check" />
 
             <div>
+              <h3 className="skills__name">Chakra UI</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
               <h3 className="skills__name">Material UI</h3>
             </div>
           </div>
@@ -43,6 +51,14 @@ const Backend = () => {
             <i className="bx bx-badge-check" />
 
             <div>
+              <h3 className="skills__name">Bitbucket</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
               <h3 className="skills__name">FIGMA</h3>
             </div>
           </div>
@@ -52,6 +68,13 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">JIRA</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
+              <h3 className="skills__name">Asana</h3>
             </div>
           </div>
         </div>

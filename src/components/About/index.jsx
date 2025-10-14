@@ -2,8 +2,7 @@ import "./About.scss"
 
 import React from "react"
 
-import AboutImg from "../../assets/about.jpg"
-import coverLetter from "../../assets/TatjanaDevrnja-cover.pdf"
+import ProfileImage from "../../assets/profile.jpg"
 import CV from "../../assets/TatjanaDevrnja-CV.pdf"
 import Info from "./Info"
 
@@ -14,13 +13,16 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={ProfileImage} alt="" className="about__img" />
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-            Frontent developer in the early stages of my career. I’m ready to take on new challenges
-            and improve myself both professionally and as a person.
+            I have three years of experience as a frontend developer, mainly focused on building
+            e-commerce websites and online stores. In addition, I’ve worked on creating presentation
+            websites and various web templates. I enjoy learning, improving my skills, and
+            approaching every project with dedication. I’m ready for new challenges that help me
+            grow both as a developer and as a person.
           </p>
           <div className="cv-and-cover">
             <a download="" href={CV} className="button button--flex">
