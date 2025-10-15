@@ -131,7 +131,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">React/React Native Developer</h3>
                 <span className="qualification__subtitle">Kortechs</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt" /> 2019 - 2021
+                  <i className="uil uil-calendar-alt" /> 2021 - 2022
                 </div>
               </div>
             </div>

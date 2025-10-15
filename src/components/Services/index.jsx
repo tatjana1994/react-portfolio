@@ -17,7 +17,7 @@ const Services = () => {
 
       <div className="services__container container grid">
         <div className="services__content">
-          <div>
+          <div className="test">
             <img className="icon" src={marvel} alt="" />
           </div>
           <a
@@ -31,7 +31,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
+          <div className="test">
             <img src={ems} alt="" />
           </div>
 
@@ -46,7 +46,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
+          <div className="test">
             <img src={union} alt="" />
           </div>
 
@@ -62,7 +62,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
+          <div className="test">
             <img className="icon" src={herz} alt="" />
           </div>
           <a
@@ -76,7 +76,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
+          <div className="test">
             <img className="icon" src={moonsama} alt="" />
           </div>
           <a
@@ -90,7 +90,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
+          <div className="test">
             <svg viewBox="0 0 160 37" focusable="false" className="chakra-icon css-cs1o8f">
               <g clipPath="url(#clip0_612_15869)">
                 <path
