@@ -42,6 +42,13 @@ const Frontend = () => {
               <h3 className="skills__name">Wordpress</h3>
             </div>
           </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check" />
+
+            <div>
+              <h3 className="skills__name">Contentful</h3>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">

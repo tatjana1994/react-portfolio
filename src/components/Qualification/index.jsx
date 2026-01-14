@@ -107,6 +107,21 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div />
+
+              <div>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
+              </div>
+              <div>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">Montenix</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt" /> October 2025 - January 2026
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">Forga</span>
